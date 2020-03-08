@@ -1,7 +1,7 @@
 '''
 Created on 05.03.2020
 
-In diesem Modul sind Beispiele zu folgenden themen enthalten
+In diesem Modul sind Beispiele zu folgenden Themen enthalten
 - Bedingte Anweisung
 - Bedingte Anweisung mit Alternative
 - Bedingte Anweisung mit mehreren Bedingungen

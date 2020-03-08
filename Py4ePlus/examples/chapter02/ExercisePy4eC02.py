@@ -11,6 +11,17 @@ from examples import print_exercise
 
 print_header("Python for everybody - Kapitel 2 - Exercises")
 
+# Exercise 1
+task = "Exercise 1: Type the following statements in the Python interpreter to see what they do:"
+code = """5
+x = 5
+x + 1"""
+print_exercise(task, code, None, None)
+print(5)
+x = 5
+print(x)
+print(x + 1)
+
 # Exercise 2
 task = "Exercise 2: Write a program that uses input to prompt a user for their name and then welcomes them."
 code = """Enter your name: Chuck
@@ -58,8 +69,9 @@ print("Type of '1 + 2 * 5':", type(1 + 2 * 5))
 task = "Exercise 5: Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature."
 print_exercise(task, None, None, None)
 celsius = input("Enter a temperature in celsius: ")
-fahrenheit = float(celsius) * 1.8 + 32
-print("temperature in fahrenheit is", fahrenheit)
+if(celsius.isdecimal()):
+    fahrenheit = float(celsius) * 1.8 + 32
+    print("temperature in fahrenheit is", fahrenheit)
 
 
 
