@@ -12,7 +12,7 @@ Gibt vorhandene Informationen zu einer Aufgabe auf der Konsole aus
 @param question: Frage oder Beschreibung einer Aufgabe
 @param code:   
 '''
-def print_exercise(question, code, possible_answers, correct_answer):
+def print_exercise(question, code=None, possible_answers=None, correct_answer=None):
     print(question)
     if(code is not None and len(code) > 0):
         print(code)
