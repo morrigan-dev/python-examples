@@ -7,7 +7,6 @@ hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 4' gelöst.
 @see: https://www.py4e.com/html3/05-iterations
 @see: https://www.python-kurs.eu/python3_schleifen.php
 @see: https://www.python-kurs.eu/python3_for-schleife.php
-@see: https://www.python-kurs.eu/python3_rekursive_funktionen.php
 '''
 from examples import print_header
 from examples import print_exercise 

@@ -12,6 +12,10 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten
 @see: https://www.py4e.com/html3/04-functions
 @see: https://www.python-kurs.eu/python3_funktionen.php
 '''
+from examples import print_header
+
+print_header("Kapitel 4 - Eigene Funktionen")
+
 
 # Eigene neue Funktionen
 
@@ -68,10 +72,5 @@ def sumAll(*args):
 print("sumAll() ergibt:", sumAll()) 
 print("sumAll(1,2,3) ergibt:", sumAll(1,2,3))
 print("sumAll(1,2,3,4,5,6,7,8,9) ergibt:", sumAll(1,2,3,4,5,6,7,8,9))
-
-
-
-
-
 
 

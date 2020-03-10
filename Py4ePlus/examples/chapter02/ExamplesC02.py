@@ -13,12 +13,10 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten
 @see: https://www.python-kurs.eu/python3_variablen.php
 @see: https://www.python-kurs.eu/python3_operatoren.php
 '''
+from examples import print_header
 from random import SystemRandom
 
-print()
-print("Kapitel 2 - Beispiele zu Variablen")
-print("==================================")
-print()
+print_header("Kapitel 2 - Beispiele zu Variablen")
 
 # Nummerische Datentypen
 # - int        Ganzzahlen

@@ -13,11 +13,9 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten
 @see: https://www.py4e.com/html3/03-conditional
 @see: https://www.python-kurs.eu/python3_bedingte_anweisungen.php
 '''
+from examples import print_header
 
-print()
-print("Kapitel 3 - Bedingte Anweisungen")
-print("================================")
-print()
+print_header("Kapitel 3 - Bedingte Anweisungen")
 
 # Einfache Bedingung
 x = 5
@@ -54,10 +52,7 @@ else:
         print("x ist größer als y")
         
 
-print()
-print("Kapitel 3 - Fehlerbehandlung")
-print("============================")
-print()
+print_header("Kapitel 3 - Fehlerbehandlung")
 
 try:
     strValue = input("Geben Sie eine Ganzzahl ein: ")
@@ -69,10 +64,7 @@ finally:
     print("Dieser Teil wird bei einem try-except Block immer ausgeführt.")
 
 
-print()
-print("Kapitel 3 - Logische Ausdrücke")
-print("==============================")
-print()
+print_header("Kapitel 3 - Logische Ausdrücke")
 
 
 print("a     | b     | not a | not b | a and b | a or b | a xor b")
