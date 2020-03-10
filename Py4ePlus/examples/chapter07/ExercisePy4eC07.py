@@ -6,7 +6,8 @@ Hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 7' gelöst.
 @author: morrigan
 @see: https://www.py4e.com/html3/07-files
 '''
-from examples import print_header, DATA_PATH
+from examples import print_header
+from examples import DATA_PATH
 from examples import print_exercise 
 
 print_header("Python for everybody - Kapitel 7 - Exercises")
