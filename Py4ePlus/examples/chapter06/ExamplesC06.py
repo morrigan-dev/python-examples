@@ -13,7 +13,7 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten:
 '''
 from examples import print_header
 
-print_header("Kapitel 6 - Inidzierung von Strings")
+print_header("Kapitel 6 - Indizierung von Strings")
 
 strValue = "Hello world!"
 print("'%s'.strValue[0] =" % strValue, strValue[0])

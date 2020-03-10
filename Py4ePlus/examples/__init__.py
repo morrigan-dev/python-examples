@@ -12,6 +12,8 @@ Gibt vorhandene Informationen zu einer Aufgabe auf der Konsole aus
 @param question: Frage oder Beschreibung einer Aufgabe
 @param code:   
 '''
+from pathlib import Path
+
 def print_exercise(question, code=None, possible_answers=None, correct_answer=None):
     print(question)
     if(code is not None and len(code) > 0):
@@ -32,3 +34,7 @@ def print_header(header):
     print(header)
     print("=" * len(header))
     print()   
+
+PROJECT_PATH = Path(__file__).parent.parent
+DATA_PATH = PROJECT_PATH / "data"
+SOURCE_PATH = PROJECT_PATH / ("examples")
