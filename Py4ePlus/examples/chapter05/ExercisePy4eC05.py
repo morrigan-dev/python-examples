@@ -1,7 +1,7 @@
 '''
 Created on 09.03.2020
 
-hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 4' gelöst.
+Hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 5' gelöst.
 
 @author: morrigan
 @see: https://www.py4e.com/html3/05-iterations
