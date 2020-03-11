@@ -1,7 +1,7 @@
 '''
 Created on 10.03.2020
 
-Hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 7' gelöst.
+Hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 8' gelöst.
 
 @author: morrigan
 @see: https://www.py4e.com/html3/08-lists

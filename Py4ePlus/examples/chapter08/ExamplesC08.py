@@ -6,6 +6,9 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten:
 
 @author: morrigan
 '''
+from examples import print_header
+
+print_header("Kapitel 8 - Listen")
 
 # Erzeugung von Listen
 int_list = [1, 2, 3]
