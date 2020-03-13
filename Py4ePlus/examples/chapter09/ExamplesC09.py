@@ -5,10 +5,12 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten:
 - Dictionaries
 
 @author: morrigan
+@see: https://www.py4e.com/html3/09-dictionaries
 '''
 import string
 
-from examples import print_header, DATA_PATH
+from examples import DATA_PATH
+from examples import print_header
 
 print_header("Kapitel 9 - Dictionaries")
 
@@ -52,5 +54,4 @@ with open(DATA_PATH / "words.txt") as file_handle:
                 counts[word] = 1
             else:
                 counts[word] += 1
-
     print(counts)

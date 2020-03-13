@@ -5,6 +5,8 @@ In diesem Modul sind Beispiele zu folgenden Themen enthalten:
 - Listen
 
 @author: morrigan
+@see: https://www.py4e.com/html3/08-lists
+@see: https://www.python-kurs.eu/python3_listen.php
 '''
 from examples import print_header
 
