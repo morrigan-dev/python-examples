@@ -7,9 +7,7 @@ Hier werden die Aufgaben aus dem Kurs 'Python for everbody - Kapitel 12' gelöst
 @see: https://www.py4e.com/html3/12-network
 '''
 import socket
-import urllib
 import urllib.request
-from typing import re
 
 from examples import print_exercise
 from examples import print_header
