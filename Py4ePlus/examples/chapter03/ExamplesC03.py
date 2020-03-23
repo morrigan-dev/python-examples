@@ -62,10 +62,40 @@ except:
     print("Sie haben keine Ganzzahl eingegeben!")
 finally:
     print("Dieser Teil wird bei einem try-except Block immer ausgeführt.")
+print()
+
+def error_handling():
+    while True:
+        print("Vor dem Try Block")
+        try:
+            print("Innerhalb des try Blocks")
+            input_value = input("Eingabe: ")
+            if not input_value:
+                break
+            if input_value == "return":
+                return
+            x = int(input_value)
+            print("Ihre Zahl ist:", x)
+
+        except ValueError as e:
+            print("Es ist ein Fehler aufgetreten: args={}, type={}".format(e.args[0], type(e)))
+        else:
+            print("Else Block")
+        finally:
+            print("Finally Block")
+        print("Nach dem Try Block")
+        print()
+
+error_handling()
+print()
+
+try:
+    raise ValueError("Fehler!")
+except ValueError as e:
+    print(e.args)
 
 
 print_header("Kapitel 3 - Logische Ausdrücke")
-
 
 print("a     | b     | not a | not b | a and b | a or b | a xor b")
 a = False

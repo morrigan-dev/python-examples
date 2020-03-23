@@ -54,8 +54,10 @@ while True:
     lng = js['results'][0]['geometry']['location']['lng']
     print('lat', lat, 'lng', lng)
     address_components = js['results'][0]['address_components']
+    country = ""
     for comp in address_components:
-        print(js['results'][0]['address_components'])
+        if "country" in comp["types"]:
+            country = comp["short_name"]
 
     location = js['results'][0]['formatted_address']
-    print(location)
+    print(location, country)
